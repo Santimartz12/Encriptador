@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title> Encriptador de texto</title>
+        <link rel = "stylesheet" href = "EstiloEncriptador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <nav>
+
+                <h1><img id="logoAlura" src="Logo/Logo_Blanco.svg" alt="Logo Alura"></h1>
+                <a id="titular" href="Sprint 01.html">Encriptador de texto</a>
+
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section class = "input">
+
+                <textarea rows="14" id="entradamensaje" placeholder="Ingrese el texto aquí"></textarea>
+    
+                <div class = "alerta">
+    
+                    <img id = "simboloalerta"src="Simbolos/Alerta.svg">
+                    <p id="textoindicador">Sólo letras minúsculas y sin acentos</p>
+    
+                </div>
+    
+                <div class = "botones">
+    
+                    <input type="submit" value="Encriptar" id = "encriptarb">
+                    <input type="submit" value="Desencriptar" id = "desencriptarb">    
+                        
+                </div>
+
+            </section>
+
+            <section class = "output">
+                <img src="Ilustraciones/Muñeco.svg" id="imagenbusqueda">
+                <p class = "InfoNomensaje">Ningún mensaje fue <br> encontrado</p>
+                <p class = "Infoindication">Ingresa el texto que desees <br> encriptar o desencriptar.</p>
+                <textarea rows="17" id="salidamensaje"></textarea>
+                <input type="button" value="Copiar" id="botoncopiar"></input>
+
+            </section>
+
+            <script src="Script.js"></script>
+
+        </main>
+
+        <footer>
+
+            <div class="centrarcontenido">
+
+                <p class="infodev">&#169; Santiago Martínez Martínez<p><a href="https://www.linkedin.com/in/santimartz/"><img src="Logo/icons8-linkedin.svg" alt="LinkedIn icon by Icons8" class = "logosfooter" id="logoLinkedIn"></a>
+                <a href="https://app.aluracursos.com/user/santimartz12"><img src="Logo/Logo.svg" alt="Logo Alura" class = "logosfooter" id="logoalura"></a>
+                <a href="https://github.com/Santimartz12"><img src="Logo/icons8-github.svg" alt="GitHub icon by Icons8" class = "logosfooter" id="logogithub"></a>
+
+            </div>
+                       
+        </footer>
+
+    </body>
+
+</html>
