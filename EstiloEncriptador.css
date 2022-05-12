@@ -197,13 +197,12 @@ main{
 }
 
 footer{
+    margin-top: 40px;
     width: 100%;
     height: fit-content;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #0A3871;
-    position: fixed;
-    bottom: 0px;
 }
 
 .centrarcontenido{
@@ -214,7 +213,7 @@ footer{
 
 .infodev{
     margin-right: 20px;
-    margin-left: 40%;
+    margin-left: 40%
 }
 
 .logosfooter{
@@ -233,4 +232,70 @@ footer{
 
 #logoLinkedIn{
     height: 19px;
+}
+
+/*Pagina Responsive*/
+
+
+@media screen and (max-width:1100px) 
+{
+    main{
+        display: block;
+        width: 80%;
+        margin: 75px auto 13px auto;
+    }
+
+    input{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .output{
+        background-color: white;
+        width: 90%;
+        margin: 70px 5% 70px 2%;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #0a38713a;
+        padding: 15px;
+    }
+
+}
+
+@media screen and (max-width:900px) 
+{
+    .infodev{
+        margin-left: 28%
+    }
+}
+
+
+@media screen and (max-width:500px) 
+{
+
+    main{
+        display: block;
+        width: 80%;
+        margin: 75px 10% 13px 10%;
+    }
+
+    .output{
+        background-color: white;
+        width: 95%;
+        margin: 70px 0;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #0a38713a;
+        padding: 10px;
+    }    
+
+    .infodev{
+        margin-left: 19%
+    }
+    
+}
+
+@media screen and (max-height:800px) 
+{
+    footer{
+        margin-top: 5px;
+    }
 }
